@@ -1,0 +1,53 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Princess Joyce Exclusive Family Resort </title>
+    <link rel="stylesheet" href="resort.css"/><link
+href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+rel="stylesheet">
+</head>
+<body>
+    <nav>
+    <div class="nav__logo">Princess Joyce Exclusive Family Resort </div>
+    <ul class="nav__links">
+    <li class= "link"><a href="home.html">Home</a></li>
+    <li class= "link"><a href="cottage.html">Venue</a></li>
+    <li class= "link"><a href="rooms.html">Rooms</a></li>
+    <li class= "link"><a href="reservations.html">Reservations</a></li>
+    <li class= "link"><a href="aboutus.html">About us</a></li>
+    </ul>
+</nav>
+            </div>
+            </div>
+
+            <div class="background-container">
+                <div class="reservation-container">
+                    <h2>Reservation Form</h2>
+                    <form action="submit_reservation.php" method="post">
+                        <!-- Your form fields go here -->
+                        <label for="email"><b>Email</b></label>
+                        <input type="text" placeholder="Enter Email" name="email" id="email" required>
+                        
+                        <label for="phone">Phone:</label>
+                        <input type="tel" placeholder="Enter Phone Number "phone name="phone" required>
+        
+                        <label for="check-in">Check-in date:</label>
+                        <input type="date" id="check-in" name="check-in" required>
+        
+                        <label for="check-out">Check-out date:</label>
+                        <input type="date" id="check-out" name="check-out" required>
+
+                        <label for="rooms">Number of Rooms:</label>
+                        <input type="number" id="rooms" name="rooms" min="1" required>
+        
+                        <label for="comments">Any special request:</label>
+                        <textarea id="comments" placeholder="Enter your request here" comments rows="4"></textarea>
+
+                        
+        
+                        <button type="submit">Submit Reservation</button>
+                        
+                    </form>
+                </div>
+            </div>
+
